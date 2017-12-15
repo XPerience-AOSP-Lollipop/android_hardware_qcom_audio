@@ -24,6 +24,7 @@ include $(CLEAR_VARS)
 
 libOmxAacEnc-inc       := $(LOCAL_PATH)/inc
 libOmxAacEnc-inc       += $(TARGET_OUT_HEADERS)/mm-core/omxcore
+LOCAL_HEADER_LIBRARIES := libhardware_headers
 
 LOCAL_MODULE             := libOmxAacEnc
 LOCAL_MODULE_TAGS        := optional

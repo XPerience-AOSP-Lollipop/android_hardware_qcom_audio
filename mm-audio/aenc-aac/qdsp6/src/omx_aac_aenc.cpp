@@ -39,6 +39,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <fcntl.h>
 #include <sys/ioctl.h>
 #include "omx_aac_aenc.h"
+#include "OMX_IndexExt.h"
 #include <errno.h>
 
 using namespace std;
